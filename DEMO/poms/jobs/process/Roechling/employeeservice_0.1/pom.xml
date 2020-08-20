@@ -43,7 +43,7 @@
     <talend.job.version>0.1</talend.job.version>
     <project.distribution-management.repository.url>${project.distributionManagement.repository.url}</project.distribution-management.repository.url>
     <talend.job.path>demo</talend.job.path>
-    <talend.job.context>Default</talend.job.context>
+    <talend.job.context>Demo</talend.job.context>
     <talend.job.stat>true</talend.job.stat>
     <talend.pigudf.groupid>org.example.demo.pigudf</talend.pigudf.groupid>
     <talend.job.framework></talend.job.framework>
