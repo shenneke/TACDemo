@@ -8,6 +8,9 @@
   <packaging>pom</packaging>
   <name>DEMO Codes Master</name>
   <url>http://www.talend.org/</url>
+  <modules>
+    <module>jobs/process/Roechling/test_0.1</module>
+  </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
     <talend.project.name>DEMO</talend.project.name>
