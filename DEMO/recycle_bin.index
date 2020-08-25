@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin" lastUpdate="2020-08-25T09:08:51.350+0200">
+<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin" lastUpdate="2020-08-25T09:14:55.544+0200">
+  <deletedFolders>process/Spanset/UK/Sage</deletedFolders>
+  <deletedFolders>process/Spanset/UK</deletedFolders>
   <deletedItems id="_qT8HoFGCEeqTxJfW_SlIJw" path="Roechling" type="PROCESS"/>
+  <deletedItems id="_S8zkEBJREeiQN6MLf--oDg" path="Spanset/UK/Sage" type="PROCESS"/>
+  <deletedItems id="_0hJgcBIwEeiQN6MLf--oDg" path="Spanset/UK/Sage" type="PROCESS"/>
+  <deletedItems id="_p_LvQO12Eeiu8LscvHYMiQ" path="Spanset/UK/Sage" type="PROCESS"/>
+  <deletedItems id="_ojXaEBHTEeiSCtQS-FkHnw" path="Spanset/UK/Sage" type="PROCESS"/>
+  <deletedItems id="_GraBIBHTEeiSCtQS-FkHnw" path="Spanset/UK/Sage" type="PROCESS"/>
+  <deletedItems id="_XV5hsBJFEeiQN6MLf--oDg" path="Spanset/UK/Sage" type="PROCESS"/>
+  <deletedItems id="_6RtDoBJNEeiQN6MLf--oDg" path="Spanset/UK/Sage" type="PROCESS"/>
+  <deletedItems id="_NqSB4BJOEeiQN6MLf--oDg" path="Spanset/UK/Sage" type="PROCESS"/>
+  <deletedItems id="_DuYZcBJOEeiQN6MLf--oDg" path="Spanset/UK/Sage" type="PROCESS"/>
 </recyclebin:RecycleBin>
