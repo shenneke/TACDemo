@@ -8,18 +8,6 @@
   <packaging>pom</packaging>
   <name>DEMO Codes Master</name>
   <url>http://www.talend.org/</url>
-  <modules>
-    <module>jobs/process/Schramm/Lib/loadsettings_1.0</module>
-    <module>jobs/process/Spanset/UK/Sage/sub_price_filehandlinginboxread_0.1</module>
-    <module>jobs/process/Spanset/UK/Sage/sub_interfaceftpget_0.1</module>
-    <module>jobs/process/Spanset/UK/Sage/sub_modifyfiles_to_processing_0.1</module>
-    <module>jobs/process/Spanset/UK/Sage/sub_prod_filehandlinginboxread_0.1</module>
-    <module>jobs/process/Spanset/UK/Sage/sub_interfacesagetosugarcrm_customer_rest_uk_1.2</module>
-    <module>jobs/process/Spanset/UK/Sage/sub_interfacesagetosugarcrm_product_rest_uk_1.2</module>
-    <module>jobs/process/Spanset/UK/Sage/interfacesagetosugarcrm_all_0.1</module>
-    <module>jobs/process/Spanset/UK/Sage/sub_cust_filehandlinginboxread_0.1</module>
-    <module>jobs/process/Spanset/UK/Sage/sub_interfacesagetosugarcrm_price_rest_uk_1.2</module>
-  </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
     <talend.project.name>DEMO</talend.project.name>
