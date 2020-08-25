@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin" lastUpdate="2020-08-25T09:14:55.544+0200">
+<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin" lastUpdate="2020-08-25T09:15:03.356+0200">
   <deletedFolders>process/Spanset/UK/Sage</deletedFolders>
   <deletedFolders>process/Spanset/UK</deletedFolders>
+  <deletedFolders>process/Schramm/Lib</deletedFolders>
+  <deletedFolders>process/Schramm</deletedFolders>
   <deletedItems id="_qT8HoFGCEeqTxJfW_SlIJw" path="Roechling" type="PROCESS"/>
   <deletedItems id="_S8zkEBJREeiQN6MLf--oDg" path="Spanset/UK/Sage" type="PROCESS"/>
   <deletedItems id="_0hJgcBIwEeiQN6MLf--oDg" path="Spanset/UK/Sage" type="PROCESS"/>
@@ -12,4 +14,5 @@
   <deletedItems id="_6RtDoBJNEeiQN6MLf--oDg" path="Spanset/UK/Sage" type="PROCESS"/>
   <deletedItems id="_NqSB4BJOEeiQN6MLf--oDg" path="Spanset/UK/Sage" type="PROCESS"/>
   <deletedItems id="_DuYZcBJOEeiQN6MLf--oDg" path="Spanset/UK/Sage" type="PROCESS"/>
+  <deletedItems id="_5ARsEIpiEeOffO5TDztmGA" path="Schramm/Lib" type="PROCESS"/>
 </recyclebin:RecycleBin>
