@@ -9,8 +9,6 @@
   <name>DEMO Codes Master</name>
   <url>http://www.talend.org/</url>
   <modules>
-    <module>code/routines</module>
-    <module>code/beans</module>
     <module>jobs/process/Roechling/employeeservice_0.1</module>
   </modules>
   <properties>

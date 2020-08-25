@@ -8,9 +8,9 @@
     <version>7.3.1</version>
     <relativePath>../../../../</relativePath>
   </parent>
-  <groupId>org.example.demo.service</groupId>
+  <groupId>org.example.demo.Roechling</groupId>
   <artifactId>EmployeeService</artifactId>
-  <version>0.1.0</version>
+  <version>7.3.1</version>
   <packaging>bundle</packaging>
   <name>DEMO EmployeeService-${project.version} (0.1,Job Designs) Bundle</name>
   <properties>
