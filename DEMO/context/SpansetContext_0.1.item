@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ContextType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" confirmationNeeded="false" name="Default" xmi:id="_7RGgoOahEeqPBddChxf5OA" xmi:version="2.0">
+  <contextParameter comment="" name="settingsFileName" prompt="settingsFileName?" promptNeeded="false" type="id_String" value="c:\dev\TalendSP\conf\settings.txt" xmi:id="_7RGgoeahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="ProxyHost" prompt="ProxyHost?" promptNeeded="false" type="id_String" value="61.163.92.4" xmi:id="_7RGgouahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="ProxyPort" prompt="ProxyPort?" promptNeeded="false" type="id_String" value="8080" xmi:id="_7RGgo-ahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="log4jConfigurationFile" prompt="log4jConfigurationFile?" promptNeeded="false" type="id_String" value="null" xmi:id="_7RGgpOahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="SPContentHashLength" prompt="SPContentHashLength?" promptNeeded="false" type="id_Integer" value="2" xmi:id="_7RGgpeahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="logLineHeader" prompt="logLineHeader?" promptNeeded="false" type="id_String" value="LOCAL DEV " xmi:id="_7RGgpuahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="SPJobInstanceID" prompt="SPJobInstanceID?" promptNeeded="false" type="id_String" value="null" xmi:id="_7RGgp-ahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="SPCurrentDate" prompt="SPCurrentDate?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGgqOahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="totalCountSet" prompt="totalCountSet?" promptNeeded="false" type="id_Integer" value="" xmi:id="_7RGgqeahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="VFJobname" prompt="VFJobname?" promptNeeded="false" type="id_String" value="null" xmi:id="_7RGgquahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="totalCountSetLastRun" prompt="totalCountSetLastRun?" promptNeeded="false" type="id_Integer" value="" xmi:id="_7RGgq-ahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="incrementalRun" prompt="incrementalRun?" promptNeeded="false" type="id_Boolean" value="false" xmi:id="_7RGgrOahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="talendJobRuntype" prompt="talendJobRuntype?" promptNeeded="false" type="id_String" value="null" xmi:id="_7RGgreahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="totalCountResult" prompt="totalCountResult?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_7RGgruahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="SPJobControlID" prompt="SPJobControlID?" promptNeeded="false" type="id_String" value="null" xmi:id="_7RGgr-ahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="talendJobBreak" prompt="talendJobBreak?" promptNeeded="false" type="id_Boolean" value="false" xmi:id="_7RGgsOahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="forceRun" prompt="forceRun?" promptNeeded="false" type="id_Boolean" value="false" xmi:id="_7RGgseahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="SPJobInstanceError" prompt="SPJobInstanceError?" promptNeeded="false" type="id_Boolean" value="" xmi:id="_7RGgsuahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="testrun" prompt="testrun?" promptNeeded="false" type="id_Boolean" value="false" xmi:id="_7RGgs-ahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="testcount" prompt="testcount?" promptNeeded="false" type="id_Integer" value="1" xmi:id="_7RGgtOahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="simulate" prompt="simulate?" promptNeeded="false" type="id_Boolean" value="false" xmi:id="_7RGgteahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="lastjob" prompt="lastjob?" promptNeeded="false" type="id_Integer" value="1" xmi:id="_7RGgtuahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="SPJobname2" prompt="SPJobname2?" promptNeeded="false" type="id_String" value="null" xmi:id="_7RGgt-ahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="forceAll" prompt="forceAll?" promptNeeded="false" type="id_Boolean" value="false" xmi:id="_7RGguOahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="SPJobIDSameServer" prompt="SPJobIDSameServer?" promptNeeded="false" type="id_String" value="null" xmi:id="_7RGgueahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="TalendJobControl" prompt="TalendJobControl?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGguuahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="TalendJobHistory" prompt="TalendJobHistory?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGgu-ahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="SPTalendHostname" prompt="SPTalendHostname?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGgvOahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="ConstantJobTypeFullSync" prompt="ConstantJobTypeFullSync?" promptNeeded="false" type="id_String" value="&quot;Full&quot;" xmi:id="_7RGgveahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="ConstantJobTypeIncSync" prompt="ConstantJobTypeIncSync?" promptNeeded="false" type="id_String" value="&quot;Inc&quot;" xmi:id="_7RGgvuahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="SPTalendStatus" prompt="SPTalendStatus?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGgv-ahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="SPTalendErrorCode" prompt="SPTalendErrorCode?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGgwOahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="SPTalendErrorMessage" prompt="SPTalendErrorMessage?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGgweahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="ProxyUser" prompt="ProxyUser?" promptNeeded="false" type="id_String" value="admin" xmi:id="_7RGgwuahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="ProxyPWD" prompt="ProxyPWD?" promptNeeded="false" type="id_String" value="admin" xmi:id="_7RGgw-ahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="counter" prompt="counter?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_7RGgxOahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="SSUK_slcustm_customer" prompt="SSUK_slcustm_customer?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGgxeahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="SSUK_SugarURL" prompt="SSUK_SugarURL?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGgxuahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="SSUK_SugarUser" prompt="SSUK_SugarUser?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGgx-ahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="SSUK_SugarPWD" prompt="SSUK_SugarPWD?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGgyOahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="SSUKMysqldb_host_name" prompt="SSUKMysqldb_host_name?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGgyeahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="SSUKMysqldb_user_name" prompt="SSUKMysqldb_user_name?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGgyuahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="SSUKMysqldb_password" prompt="SSUKMysqldb_password?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGgy-ahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="SSUKMysqldb_port" prompt="SSUKMysqldb_port?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGgzOahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="SSUKMysqldb_name" prompt="SSUKMysqldb_name?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGgzeahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="SSUK_SugarURL_Rest" prompt="SSUK_SugarURL_Rest?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGgzuahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="SSUK_Sugar_Rest_Token" prompt="SSUK_Sugar_Rest_Token?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGgz-ahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="SSUK_Sugar_Rest_Path" prompt="SSUK_Sugar_Rest_Path?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGg0OahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="grpExportAccounts" prompt="grpExportAccounts?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGg0eahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="grpExportContacts" prompt="grpExportContacts?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGg0uahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="SSPOLdataXlsx" prompt="SSPOLdataXlsx?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGg0-ahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="LoggingIfCounter" prompt="LoggingIfCounter?" promptNeeded="false" type="id_Integer" value="1000" xmi:id="_7RGg1OahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="AccountCount" prompt="AccountCount?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_7RGg1eahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="ContactCount" prompt="ContactCount?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_7RGg1uahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="AccountCreateSuccessCount" prompt="AccountCreateSuccessCount?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_7RGg1-ahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="ContactCreateSuccessCount" prompt="ContactCreateSuccessCount?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_7RGg2OahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="AccountCreateErrorCount" prompt="AccountCreateErrorCount?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_7RGg2eahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="ContactCreateErrorCount" prompt="ContactCreateErrorCount?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_7RGg2uahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="AccountUpdateSuccessCount" prompt="AccountUpdateSuccessCount?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_7RGg2-ahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="ContactUpdateSuccessCount" prompt="ContactUpdateSuccessCount?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_7RGg3OahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="AccountUpdateErrorCount" prompt="AccountUpdateErrorCount?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_7RGg3eahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="ContactUpdateErrorCount" prompt="ContactUpdateErrorCount?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_7RGg3uahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="AccountUpdateCount" prompt="AccountUpdateCount?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_7RGg3-ahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="ContactUpdateCount" prompt="ContactUpdateCount?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_7RGg4OahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="AccountUniqCount" prompt="AccountUniqCount?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_7RGg4eahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="ContactUniqCount" prompt="ContactUniqCount?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_7RGg4uahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="LogCounter" prompt="LogCounter?" promptNeeded="false" type="id_Integer" value="1" xmi:id="_7RGg4-ahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="access_token" prompt="access_token?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGg5OahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="refresh_token" prompt="refresh_token?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGg5eahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="id" prompt="id?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGg5uahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="accessExpieresIn" prompt="accessExpieresIn?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGg5-ahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="finalURL" prompt="finalURL?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGg6OahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="SSUK_Sugar_Rest_Accounts" prompt="SSUK_Sugar_Rest_Accounts?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGg6eahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="SSUK_Sugar_Rest_Contacts" prompt="SSUK_Sugar_Rest_Contacts?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGg6uahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="lastJasonString" prompt="lastJasonString?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGg6-ahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="beforeLastJasonString" prompt="beforeLastJasonString?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGg7OahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="nextAccessTokenExpieres" prompt="nextAccessTokenExpieres?" promptNeeded="false" type="id_Date" value="" xmi:id="_7RGg7eahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="AcoountContactRelation" prompt="AcoountContactRelation?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_7RGg7uahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="AcoountContactCreatedRelation" prompt="AcoountContactCreatedRelation?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_7RGg7-ahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="DefaultCustomerTypeSage" prompt="DefaultCustomerTypeSage?" promptNeeded="false" type="id_String" value="&quot;Customer&quot;" xmi:id="_7RGg8OahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="sageInterfaceInBox" prompt="sageInterfaceInBox?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGg8eahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="sageInterfaceError" prompt="sageInterfaceError?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGg8uahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="sageInterfaceOutBox" prompt="sageInterfaceOutBox?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGg8-ahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="sageInterfaceProcessed" prompt="sageInterfaceProcessed?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGg9OahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="sageInterfaceProcessing" prompt="sageInterfaceProcessing?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGg9eahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="SSUK_Sugar_Rest_ProductTemplates" prompt="SSUK_Sugar_Rest_ProductTemplates?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGg9uahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="Count" prompt="Count?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_7RGg9-ahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="CreateSuccessCount" prompt="CreateSuccessCount?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_7RGg-OahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="CreateErrorCount" prompt="CreateErrorCount?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_7RGg-eahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="UpdateSuccessCount" prompt="UpdateSuccessCount?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_7RGg-uahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="UpdateErrorCount" prompt="UpdateErrorCount?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_7RGg--ahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="UpdateCount" prompt="UpdateCount?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_7RGg_OahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="UniqCount" prompt="UniqCount?" promptNeeded="false" type="id_Integer" value="0" xmi:id="_7RGg_eahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="importCounter" prompt="importCounter?" promptNeeded="false" type="id_Object" value="" xmi:id="_7RGg_uahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="SSUK_Sugar_Rest_Calls" prompt="SSUK_Sugar_Rest_Calls?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGg_-ahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="SSUK_Sugar_Rest_Notes" prompt="SSUK_Sugar_Rest_Notes?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGhAOahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="SSUK_Sugar_Rest_Meetings" prompt="SSUK_Sugar_Rest_Meetings?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGhAeahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="grpExportMeetings" prompt="grpExportMeetings?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGhAuahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="grpExportCalls" prompt="grpExportCalls?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGhA-ahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="grpExportNotes" prompt="grpExportNotes?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGhBOahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="SSUK_Sugar_Rest_Emails" prompt="SSUK_Sugar_Rest_Emails?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGhBeahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="SSUK_Sugar_Rest_Documents" prompt="SSUK_Sugar_Rest_Documents?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGhBuahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="grpExportAttachments" prompt="grpExportAttachments?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGhB-ahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="grpExportEmails" prompt="grpExportEmails?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGhCOahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="SSUK_slcustm_product" prompt="SSUK_slcustm_product?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGhCeahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="SSUK_slcustm_price" prompt="SSUK_slcustm_price?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGhCuahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="SSUK_update" prompt="SSUK_update?" promptNeeded="false" type="id_Boolean" value="true" xmi:id="_7RGhC-ahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="sageFTPInterfaceInBox" prompt="sageFTPInterfaceInBox?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGhDOahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="sageFTPInterfaceError" prompt="sageFTPInterfaceError?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGhDeahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="sageFTPInterfaceOutBox" prompt="sageFTPInterfaceOutBox?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGhDuahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="sageFTPInterfaceProcessed" prompt="sageFTPInterfaceProcessed?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGhD-ahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="sageFTPInterfaceProcessing" prompt="sageFTPInterfaceProcessing?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGhEOahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="FTPHost" prompt="FTPHost?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGhEeahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="FTPPort" prompt="FTPPort?" promptNeeded="false" type="id_Integer" value="" xmi:id="_7RGhEuahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="FTPUser" prompt="FTPUser?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGhE-ahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="FTPassword" prompt="FTPassword?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGhFOahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="SSUK_FTP_transfer" prompt="SSUK_FTP_transfer?" promptNeeded="false" type="id_Boolean" value="true" xmi:id="_7RGhFeahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="SSUK_create" prompt="SSUK_create?" promptNeeded="false" type="id_Boolean" value="true" xmi:id="_7RGhFuahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="SSUK_ftp_infiniti_loop" prompt="SSUK_ftp_infiniti_loop?" promptNeeded="false" type="id_Integer" value="" xmi:id="_7RGhF-ahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="SSUK_export_infiniti_loop" prompt="SSUK_export_infiniti_loop?" promptNeeded="false" type="id_Integer" value="" xmi:id="_7RGhGOahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="SSUK_ftp_log_entry_duration" prompt="SSUK_ftp_log_entry_duration?" promptNeeded="false" type="id_Integer" value="" xmi:id="_7RGhGeahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="SSUK_export_log_entry_duration" prompt="SSUK_export_log_entry_duration?" promptNeeded="false" type="id_Integer" value="" xmi:id="_7RGhGuahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="Account_check" prompt="Account_check?" promptNeeded="false" type="id_Object" value="" xmi:id="_7RGhG-ahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="Account_id" prompt="Account_id?" promptNeeded="false" type="id_Object" value="" xmi:id="_7RGhHOahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="timeToRun" prompt="timeToRun?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGhHeahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="waitForNextCheck" prompt="waitForNextCheck?" promptNeeded="false" type="id_Integer" value="" xmi:id="_7RGhHuahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="Contact_check" prompt="Contact_check?" promptNeeded="false" type="id_Object" value="" xmi:id="_7RGhH-ahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="SSUS_customer" prompt="SSUS_customer?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGhIOahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="SSUS_contact" prompt="SSUS_contact?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGhIeahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="SSUS_customerWithNoAccountLink" prompt="SSUS_customerWithNoAccountLink?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGhIuahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="historyFileRoot" prompt="historyFileRoot?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGhI-ahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="uloadFolderSugarCRM" prompt="uloadFolderSugarCRM?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGhJOahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="chownUploadUser" prompt="chownUploadUser?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGhJeahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="chownUploadGroup" prompt="chownUploadGroup?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGhJuahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="chownProgram" prompt="chownProgram?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGhJ-ahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="doChangemod" prompt="doChangemod?" promptNeeded="false" type="id_Boolean" value="false" xmi:id="_7RGhKOahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="SSIDN_customer" prompt="SSIDN_customer?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGhKeahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="SSIDN_person" prompt="SSIDN_person?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGhKuahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="currencies" prompt="currencies?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGhK-ahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="SSBRA_customer" prompt="SSBRA_customer?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGhLOahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="SSUK_FTP_IN_only" prompt="SSUK_FTP_IN_only?" promptNeeded="false" type="id_Boolean" value="false" xmi:id="_7RGhLeahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="productCategories" prompt="productCategories?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGhLuahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="grpExportEmailsAtt" prompt="grpExportEmailsAtt?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGhL-ahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="uploadDrive" prompt="uploadDrive?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGhMOahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="jsonStrHashMapOb" prompt="jsonStrHashMapOb?" promptNeeded="false" type="id_Object" value="" xmi:id="_7RGhMeahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="idStrHashMapOb" prompt="idStrHashMapOb?" promptNeeded="false" type="id_Object" value="" xmi:id="_7RGhMuahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="createFileforUpdate" prompt="createFileforUpdate?" promptNeeded="false" type="id_Boolean" value="false" xmi:id="_7RGhM-ahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="callstatus" prompt="callstatus?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGhNOahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="calldirection" prompt="calldirection?" promptNeeded="false" type="id_String" value="" xmi:id="_7RGhNeahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="error" prompt="error?" promptNeeded="false" type="id_Boolean" value="false" xmi:id="_7RGhNuahEeqPBddChxf5OA"/>
+  <contextParameter comment="" name="DefaultDeliveryTypeSage" prompt="DefaultDeliveryTypeSage?" promptNeeded="false" type="id_String" value="&quot;delivery&quot;" xmi:id="_7RGhN-ahEeqPBddChxf5OA"/>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_53f2e2c4-2c9f-432d-a653-732f5a499423"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>iCEhyTvKtPNcfvGpPiBAFg8DeSjnALvQas6mjtxj/vWGMCF6lGrvGbfgoLPD3I7sR1L+KuQI/ub+
+6ZKsBFxs8A==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_3bac2127-c33a-4ca9-b085-70b7fbd40353"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>5mIRPT1ouLmf+U2o4UazsO4VgS4RdXPDPdSMOIYKpxrebKbYX0o11JBvcRQxMW/oqNp2cLfFA65w
+7ODsreOHfA==</DigestValue></Reference></SignedInfo><SignatureValue>fhAYE6NgWGezTkerW+n3cn+E2SJQW6SB5pe42SaS08YOe94dgCQ7BtrfpaI6YQmEDZimnCiSL8nH
+xP6RNiK7MvMkBWm6aZ/voLtbjy0uejiRteciBckST1jWq8or4cN9zGzct496MXpNS8gqc85tCjPT
+bovRhWhP6G1InU/V8tBodq9O4ea9gDeslad8fzC5/6CDAH597M8a4mr4415VesqrwxL8Vwwpxpn4
+uWOu9BvWIsx+ujxDDSeBP0p9nOb1SUvFUKLtvgVptor3vKMnT9y1iY6BlkM5kMEOGkq43Q6gItAs
+wyOemh2eXBGtx3fZH3FdPZ/PCi3lbawSybOYRw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_3bac2127-c33a-4ca9-b085-70b7fbd40353" Target="#_53f2e2c4-2c9f-432d-a653-732f5a499423"><Timestamp>2020-08-25 07:09:33</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ContextType>
