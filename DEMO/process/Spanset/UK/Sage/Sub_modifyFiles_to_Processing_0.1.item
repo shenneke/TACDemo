@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" xmi:version="2.0">
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" name="access_token" prompt="access_token?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="accessExpieresIn" prompt="accessExpieresIn?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="Account_check" prompt="Account_check?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Object" value=""/>
+    <contextParameter comment="" name="Account_id" prompt="Account_id?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Object" value=""/>
+    <contextParameter comment="" name="AccountCount" prompt="AccountCount?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="AccountCreateErrorCount" prompt="AccountCreateErrorCount?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="AccountCreateSuccessCount" prompt="AccountCreateSuccessCount?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="AccountUniqCount" prompt="AccountUniqCount?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="AccountUpdateCount" prompt="AccountUpdateCount?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="AccountUpdateErrorCount" prompt="AccountUpdateErrorCount?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="AccountUpdateSuccessCount" prompt="AccountUpdateSuccessCount?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="AcoountContactCreatedRelation" prompt="AcoountContactCreatedRelation?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="AcoountContactRelation" prompt="AcoountContactRelation?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="beforeLastJasonString" prompt="beforeLastJasonString?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="chownProgram" prompt="chownProgram?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="chownUploadGroup" prompt="chownUploadGroup?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="chownUploadUser" prompt="chownUploadUser?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="ConstantJobTypeFullSync" prompt="ConstantJobTypeFullSync?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value="&quot;Full&quot;"/>
+    <contextParameter comment="" name="ConstantJobTypeIncSync" prompt="ConstantJobTypeIncSync?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value="&quot;Inc&quot;"/>
+    <contextParameter comment="" name="Contact_check" prompt="Contact_check?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Object" value=""/>
+    <contextParameter comment="" name="ContactCount" prompt="ContactCount?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="ContactCreateErrorCount" prompt="ContactCreateErrorCount?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="ContactCreateSuccessCount" prompt="ContactCreateSuccessCount?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="ContactUniqCount" prompt="ContactUniqCount?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="ContactUpdateCount" prompt="ContactUpdateCount?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="ContactUpdateErrorCount" prompt="ContactUpdateErrorCount?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="ContactUpdateSuccessCount" prompt="ContactUpdateSuccessCount?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="Count" prompt="Count?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="counter" prompt="counter?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="CreateErrorCount" prompt="CreateErrorCount?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="CreateSuccessCount" prompt="CreateSuccessCount?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="currencies" prompt="currencies?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="DefaultCustomerTypeSage" prompt="DefaultCustomerTypeSage?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value="&quot;Customer&quot;"/>
+    <contextParameter comment="" name="doChangemod" prompt="doChangemod?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Boolean" value="false"/>
+    <contextParameter comment="" name="finalURL" prompt="finalURL?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="forceAll" prompt="forceAll?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Boolean" value="false"/>
+    <contextParameter comment="" name="forceRun" prompt="forceRun?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Boolean" value="false"/>
+    <contextParameter comment="" name="FTPassword" prompt="FTPassword?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="FTPHost" prompt="FTPHost?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="FTPPort" prompt="FTPPort?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Integer" value=""/>
+    <contextParameter comment="" name="FTPUser" prompt="FTPUser?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="grpExportAccounts" prompt="grpExportAccounts?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="grpExportAttachments" prompt="grpExportAttachments?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="grpExportCalls" prompt="grpExportCalls?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="grpExportContacts" prompt="grpExportContacts?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="grpExportEmails" prompt="grpExportEmails?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="grpExportMeetings" prompt="grpExportMeetings?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="grpExportNotes" prompt="grpExportNotes?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="historyFileRoot" prompt="historyFileRoot?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="id" prompt="id?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="importCounter" prompt="importCounter?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Object" value=""/>
+    <contextParameter comment="" name="incrementalRun" prompt="incrementalRun?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Boolean" value="false"/>
+    <contextParameter comment="" name="lastJasonString" prompt="lastJasonString?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="lastjob" prompt="lastjob?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="log4jConfigurationFile" prompt="log4jConfigurationFile?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value="null"/>
+    <contextParameter comment="" name="LogCounter" prompt="LogCounter?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="LoggingIfCounter" prompt="LoggingIfCounter?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Integer" value="1000"/>
+    <contextParameter comment="" name="logLineHeader" prompt="logLineHeader?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value="LOCAL DEV "/>
+    <contextParameter comment="" name="nextAccessTokenExpieres" prompt="nextAccessTokenExpieres?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Date" value=""/>
+    <contextParameter comment="" name="ProxyHost" prompt="ProxyHost?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value="61.163.92.4"/>
+    <contextParameter comment="" name="ProxyPort" prompt="ProxyPort?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value="8080"/>
+    <contextParameter comment="" name="ProxyPWD" prompt="ProxyPWD?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value="admin"/>
+    <contextParameter comment="" name="ProxyUser" prompt="ProxyUser?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value="admin"/>
+    <contextParameter comment="" name="refresh_token" prompt="refresh_token?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="sageFTPInterfaceError" prompt="sageFTPInterfaceError?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="sageFTPInterfaceInBox" prompt="sageFTPInterfaceInBox?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="sageFTPInterfaceOutBox" prompt="sageFTPInterfaceOutBox?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="sageFTPInterfaceProcessed" prompt="sageFTPInterfaceProcessed?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="sageFTPInterfaceProcessing" prompt="sageFTPInterfaceProcessing?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="sageInterfaceError" prompt="sageInterfaceError?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="sageInterfaceInBox" prompt="sageInterfaceInBox?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="sageInterfaceOutBox" prompt="sageInterfaceOutBox?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="sageInterfaceProcessed" prompt="sageInterfaceProcessed?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="sageInterfaceProcessing" prompt="sageInterfaceProcessing?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="settingsFileName" prompt="settingsFileName?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value="c:\dev\TalendSP\conf\settings.txt"/>
+    <contextParameter comment="" name="simulate" prompt="simulate?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Boolean" value="false"/>
+    <contextParameter comment="" name="SPContentHashLength" prompt="SPContentHashLength?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Integer" value="2"/>
+    <contextParameter comment="" name="SPCurrentDate" prompt="SPCurrentDate?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="SPJobControlID" prompt="SPJobControlID?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value="null"/>
+    <contextParameter comment="" name="SPJobIDSameServer" prompt="SPJobIDSameServer?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value="null"/>
+    <contextParameter comment="" name="SPJobInstanceError" prompt="SPJobInstanceError?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Boolean" value=""/>
+    <contextParameter comment="" name="SPJobInstanceID" prompt="SPJobInstanceID?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value="null"/>
+    <contextParameter comment="" name="SPJobname2" prompt="SPJobname2?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value="null"/>
+    <contextParameter comment="" name="SPTalendErrorCode" prompt="SPTalendErrorCode?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="SPTalendErrorMessage" prompt="SPTalendErrorMessage?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="SPTalendHostname" prompt="SPTalendHostname?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="SPTalendStatus" prompt="SPTalendStatus?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="SSBRA_customer" prompt="SSBRA_customer?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="SSIDN_customer" prompt="SSIDN_customer?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="SSIDN_person" prompt="SSIDN_person?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="SSPOLdataXlsx" prompt="SSPOLdataXlsx?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="SSUK_create" prompt="SSUK_create?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Boolean" value="true"/>
+    <contextParameter comment="" name="SSUK_export_infiniti_loop" prompt="SSUK_export_infiniti_loop?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Integer" value=""/>
+    <contextParameter comment="" name="SSUK_export_log_entry_duration" prompt="SSUK_export_log_entry_duration?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Integer" value=""/>
+    <contextParameter comment="" name="SSUK_FTP_IN_only" prompt="SSUK_FTP_IN_only?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Boolean" value="false"/>
+    <contextParameter comment="" name="SSUK_ftp_infiniti_loop" prompt="SSUK_ftp_infiniti_loop?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Integer" value=""/>
+    <contextParameter comment="" name="SSUK_ftp_log_entry_duration" prompt="SSUK_ftp_log_entry_duration?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Integer" value=""/>
+    <contextParameter comment="" name="SSUK_FTP_transfer" prompt="SSUK_FTP_transfer?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Boolean" value="true"/>
+    <contextParameter comment="" name="SSUK_slcustm_customer" prompt="SSUK_slcustm_customer?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="SSUK_slcustm_price" prompt="SSUK_slcustm_price?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="SSUK_slcustm_product" prompt="SSUK_slcustm_product?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="SSUK_Sugar_Rest_Accounts" prompt="SSUK_Sugar_Rest_Accounts?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="SSUK_Sugar_Rest_Calls" prompt="SSUK_Sugar_Rest_Calls?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="SSUK_Sugar_Rest_Contacts" prompt="SSUK_Sugar_Rest_Contacts?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="SSUK_Sugar_Rest_Documents" prompt="SSUK_Sugar_Rest_Documents?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="SSUK_Sugar_Rest_Emails" prompt="SSUK_Sugar_Rest_Emails?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="SSUK_Sugar_Rest_Meetings" prompt="SSUK_Sugar_Rest_Meetings?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="SSUK_Sugar_Rest_Notes" prompt="SSUK_Sugar_Rest_Notes?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="SSUK_Sugar_Rest_Path" prompt="SSUK_Sugar_Rest_Path?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="SSUK_Sugar_Rest_ProductTemplates" prompt="SSUK_Sugar_Rest_ProductTemplates?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="SSUK_Sugar_Rest_Token" prompt="SSUK_Sugar_Rest_Token?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="SSUK_SugarPWD" prompt="SSUK_SugarPWD?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="SSUK_SugarURL" prompt="SSUK_SugarURL?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="SSUK_SugarURL_Rest" prompt="SSUK_SugarURL_Rest?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="SSUK_SugarUser" prompt="SSUK_SugarUser?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="SSUK_update" prompt="SSUK_update?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Boolean" value="true"/>
+    <contextParameter comment="" name="SSUKMysqldb_host_name" prompt="SSUKMysqldb_host_name?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="SSUKMysqldb_name" prompt="SSUKMysqldb_name?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="SSUKMysqldb_password" prompt="SSUKMysqldb_password?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="SSUKMysqldb_port" prompt="SSUKMysqldb_port?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="SSUKMysqldb_user_name" prompt="SSUKMysqldb_user_name?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="SSUS_contact" prompt="SSUS_contact?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="SSUS_customer" prompt="SSUS_customer?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="SSUS_customerWithNoAccountLink" prompt="SSUS_customerWithNoAccountLink?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="talendJobBreak" prompt="talendJobBreak?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Boolean" value="false"/>
+    <contextParameter comment="" name="TalendJobControl" prompt="TalendJobControl?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="TalendJobHistory" prompt="TalendJobHistory?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="talendJobRuntype" prompt="talendJobRuntype?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value="null"/>
+    <contextParameter comment="" name="testcount" prompt="testcount?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="testrun" prompt="testrun?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Boolean" value="false"/>
+    <contextParameter comment="" name="timeToRun" prompt="timeToRun?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="totalCountResult" prompt="totalCountResult?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="totalCountSet" prompt="totalCountSet?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Integer" value=""/>
+    <contextParameter comment="" name="totalCountSetLastRun" prompt="totalCountSetLastRun?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Integer" value=""/>
+    <contextParameter comment="" name="uloadFolderSugarCRM" prompt="uloadFolderSugarCRM?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value=""/>
+    <contextParameter comment="" name="UniqCount" prompt="UniqCount?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="UpdateCount" prompt="UpdateCount?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="UpdateErrorCount" prompt="UpdateErrorCount?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="UpdateSuccessCount" prompt="UpdateSuccessCount?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Integer" value="0"/>
+    <contextParameter comment="" name="VFJobname" prompt="VFJobname?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_String" value="null"/>
+    <contextParameter comment="" name="waitForNextCheck" prompt="waitForNextCheck?" promptNeeded="false" repositoryContextId="_WbpZgJiWEeaCzqXdxfBdjw" type="id_Integer" value=""/>
+  </context>
+  <parameters>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:PROPERTY_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:Utp3r1EpdNTi/pnwHSzmzbl5i0R9jzxAcL3Q9SGL"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;/mnt/ssd/tools/talend/Studio/workspace/.metadata&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" show="false" value="tJDBCOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:CWXIv4uxZIMzR7R07ChBgABp5JWOLS3s386JP5F4"/>
+    <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+    <routinesParameter id="_9mPAoODjEeee7K3nospX2g" name="DataOperation"/>
+    <routinesParameter id="_9mMkYODjEeee7K3nospX2g" name="Mathematical"/>
+    <routinesParameter id="_9l4bUODjEeee7K3nospX2g" name="Numeric"/>
+    <routinesParameter id="_9mLWQODjEeee7K3nospX2g" name="Relational"/>
+    <routinesParameter id="_9mTSEODjEeee7K3nospX2g" name="StringHandling"/>
+    <routinesParameter id="_9mQOwODjEeee7K3nospX2g" name="TalendDataGenerator"/>
+    <routinesParameter id="_9mRc4ODjEeee7K3nospX2g" name="TalendDate"/>
+    <routinesParameter id="_9mNygODjEeee7K3nospX2g" name="TalendStringUtil"/>
+    <routinesParameter id="_9mUgMODjEeee7K3nospX2g" name="TalendString"/>
+    <routinesParameter id="_NXYtkP_hEeWHpYT0OW88Cg" name="UUID"/>
+  </parameters>
+  <node componentName="tDie" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="128" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDie_1"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;WADL Parameters empty&quot;"/>
+    <elementParameter field="TEXT" name="CODE" value="4"/>
+    <elementParameter field="CLOSED_LIST" name="PRIORITY" value="5"/>
+    <elementParameter field="CHECK" name="EXIT_JVM" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDie_1"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="320" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="&#10;        org.apache.log4j.Logger logger4j = org.apache.log4j.Logger&#10;            .getLogger(this.getClass());&#10;&#10;&#10; &#10;logger4j.debug(context.logLineHeader + &quot;*************************************            started        ********************************************&quot;);                                       &#10;        String[] contextElements = {&quot;log4jConfigurationFile&quot;,&quot;SPContentHashLength&quot;,&quot;SSUK_slcustm_customer&quot;,&quot;SSUK_slcustm_product&quot;,&quot;SSUK_slcustm_price&quot;,&quot;incrementalRun&quot;,&quot;forceRun&quot;,&quot;SSUK_ftp_infiniti_loop&quot;,&quot;SSUK_ftp_log_entry_duration&quot;,&quot;SSUK_export_infiniti_loop&quot;,&quot;SSUK_export_log_entry_duration&quot;,&quot;SSUK_SugarURL_Rest&quot;,&quot;SSUK_Sugar_Rest_Token&quot;,&quot;SSUK_Sugar_Rest_Path&quot;,&quot;SSUK_SugarURL&quot;,&quot;SSUK_SugarUser&quot;,&quot;SSUK_SugarPWD&quot;,&quot;SSUK_update&quot;,&quot;SSUK_create&quot;,&quot;SSUK_FTP_transfer&quot;,&quot;SSUKMysqldb_host_name&quot;,&quot;SSUKMysqldb_user_name&quot;,&quot;SSUKMysqldb_password&quot;,&quot;SSUKMysqldb_name&quot;,&quot;SSUKMysqldb_port&quot;,&quot;grpExportAccounts&quot;,&quot;grpExportContacts&quot;,&quot;grpExportCalls&quot;,&quot;grpExportMeetings&quot;,&quot;grpExportNotes&quot;,&quot;grpExportAttachments&quot;,&quot;grpExportEmails&quot;,&quot;DefaultCustomerTypeSage&quot;,&quot;sageInterfaceInBox&quot;,&quot;sageInterfaceError&quot;,&quot;sageInterfaceOutBox&quot;,&quot;sageInterfaceProcessed&quot;,&quot;sageInterfaceProcessing&quot;,&quot;FTPHost&quot;,&quot;FTPPort&quot;,&quot;FTPUser&quot;,&quot;FTPassword&quot;};&#10;&#10;       String[] contextElementsNotClearText = {&quot;SSUKMysqldb_password&quot;,&quot;SSUK_SugarPWD&quot;,&quot;FTPassword&quot;};&#10; &#10;       &#10;        Integer SPContentHashLength = context.SPContentHashLength;&#10;&#10;        for (String ces : contextElements) {&#10;            if (context.getProperty(ces) != null &amp;&amp; !context.getProperty(ces).isEmpty()) {&#10;                String ContextStringHC = UUID.sha1Raw(ces + &quot;: '&quot; + context.getProperty(ces) + &quot;'&quot;);&#10;                SPContentHashLength = context.SPContentHashLength;&#10;                if (ContextStringHC.length() &lt; context.SPContentHashLength) {&#10;                    SPContentHashLength = ContextStringHC.length();&#10;                };&#10;                if (java.util.Arrays.asList(contextElementsNotClearText).contains(ces)) {&#10;                    String ContextStringHC2 = UUID.sha1Raw(ces + &quot;: '&quot; + ContextStringHC + &quot;'&quot;);&#10;                    SPContentHashLength = context.SPContentHashLength;&#10;                    if (ContextStringHC2.length() &lt; context.SPContentHashLength) {&#10;                        SPContentHashLength = ContextStringHC2.length();&#10;                    };&#10;                    logger4j.debug(context.logLineHeader + &quot;:&quot; + ContextStringHC2.substring(ContextStringHC2.length() - SPContentHashLength) + &quot;:&quot; + &quot; &quot; + ces + &quot;: '&quot; + ContextStringHC + &quot;'&quot;);&#10;                } else {&#10;                    logger4j.debug(context.logLineHeader + &quot;:&quot; + ContextStringHC.substring(ContextStringHC.length() - SPContentHashLength) + &quot;:&quot; + &quot; &quot; + ces + &quot;: '&quot; + context.getProperty(ces) + &quot;'&quot;);&#10;                }&#10;            }&#10;        }&#10;        &#10;       &#10; &#10;logger4j.warn(context.logLineHeader + &quot;*************************************            started    modify Files    ********************************************&quot;); "/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="LABEL" value="checkKonfig"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_1"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="512" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_1"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" show="false" value=""/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="LoadSettings"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Default"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_5ARsEIpiEeOffO5TDztmGA"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" show="false" value="Default"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS">
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="settingsFileName"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.settingsFileName"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" show="false" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="__PROCESS__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_1">
+      <column comment="" key="true" length="-1" name="key" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="value" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tContextLoad" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="704" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tContextLoad_1"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="true"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" value="true"/>
+    <elementParameter field="CHECK" name="DIEONERROR" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="StoreSettings"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tContextLoad_1">
+      <column defaultValue="" key="false" length="255" name="key" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="value" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tInitLog4J" componentVersion="1.2" offsetLabelX="0" offsetLabelY="0" posX="544" posY="224" sizeX="32" sizeY="35">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tInitLog4J_1"/>
+    <elementParameter field="FILE" name="LOG4J_CONF_FILE" value="context.log4jConfigurationFile"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="LOCK_CONFIG" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="736" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_1"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="RADIO" name="BASIC_MODE" value="true"/>
+    <elementParameter field="RADIO" name="TABLE_PRINT" value="false"/>
+    <elementParameter field="RADIO" name="VERTICAL" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE" show="false" value="true"/>
+    <elementParameter field="RADIO" name="PRINT_LABEL" show="false" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;"/>
+    <elementParameter field="CHECK" name="PRINT_HEADER" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false"/>
+    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false"/>
+    <elementParameter field="TABLE" name="LENGTHS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="key"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="value"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tLogRow_1">
+      <column defaultValue="" key="false" length="255" name="key" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="value" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tWaitForFile" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="384">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tWaitForFile_1"/>
+    <elementParameter field="TEXT" name="WAIT" value="1"/>
+    <elementParameter field="TEXT" name="MAX_ITERATIONS" value=""/>
+    <elementParameter field="DIRECTORY" name="DIRECTORY" value="context.sageInterfaceInBox"/>
+    <elementParameter field="TEXT" name="FILEMASK" value="&quot;*.csv&quot;"/>
+    <elementParameter field="CHECK" name="INCLUDE_SUBDIR" value="true"/>
+    <elementParameter field="CHECK" name="CASE_SENSITIVE" value="false"/>
+    <elementParameter field="CHECK" name="INCLUDE_PRESENT" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="ACTION_ON" value="filecreated"/>
+    <elementParameter field="CLOSED_LIST" name="THEN" value="continue"/>
+    <elementParameter field="CHECK" name="WAIT_RELEASE" value="false"/>
+    <elementParameter field="TEXT" name="INTERVAL_CHECK" show="false" value="500"/>
+    <elementParameter field="CHECK" name="NON_UPDATE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tWaitForFile_1">
+      <column defaultValue="" key="false" length="0" name="CURRENT_ITERATION" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column key="false" length="255" name="PRESENT_FILE" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="255" name="DELETED_FILE" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="255" name="CREATED_FILE" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="255" name="UPDATED_FILE" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="255" name="FILENAME" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="255" name="NOT_UPDATED_FILE" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="448" posY="384">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJavaRow_2"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="org.apache.log4j.Logger logger4j = org.apache.log4j.Logger&#10;                                       .getLogger(this.getClass());&#10;                                       &#10;//Code erstellt anhand des Eingabe- und Ausgabeschemas&#10;&#10;logger4j.info(context.logLineHeader + &quot;input_row.CURRENT_ITERATION --&quot;+input_row.CURRENT_ITERATION+&quot;--&quot;);&#10;logger4j.info(context.logLineHeader + &quot;input_row.PRESENT_FILE.id --&quot;+input_row.PRESENT_FILE+&quot;--&quot;);&#10;logger4j.info(context.logLineHeader + &quot;input_row.DELETED_FILE --&quot;+input_row.DELETED_FILE+&quot;--&quot;);&#10;logger4j.info(context.logLineHeader + &quot;input_row.CREATED_FILE --&quot;+input_row.CREATED_FILE+&quot;--&quot;);&#10;logger4j.info(context.logLineHeader + &quot;input_row.UPDATED_FILE --&quot;+input_row.UPDATED_FILE+&quot;--&quot;);&#10;logger4j.info(context.logLineHeader + &quot;input_row.FILENAME --&quot;+input_row.FILENAME+&quot;--&quot;);&#10;logger4j.info(context.logLineHeader + &quot;input_row.NOT_UPDATED_FILE --&quot;+input_row.NOT_UPDATED_FILE+&quot;--&quot;);&#10;&#10;if ( input_row.CREATED_FILE != null ) {&#10;    String newFileName = input_row.CREATED_FILE.replaceAll(&quot;\\\\&quot;, &quot;/&quot;);&#10;    newFileName = newFileName.replaceAll(&quot;.*/&quot;, &quot;&quot;);&#10;    newFileName = newFileName.replaceAll(&quot;([0-9]{2,}-)([0-9]{2,}-)([0-9]{4,}-)(.*)&quot;, &quot;$3$2$1$4&quot;);&#10;    logger4j.warn(context.logLineHeader + &quot; new FileName : &quot;+newFileName);&#10;// Move files to destination folder&#10;     new File(input_row.CREATED_FILE).renameTo(new File(context.sageInterfaceProcessing + &quot;/&quot; + newFileName));&#10;}&#10;&#10;if (  input_row.PRESENT_FILE != null ) {&#10;    String newFileName = input_row.PRESENT_FILE.replaceAll(&quot;\\\\&quot;, &quot;/&quot;);&#10;    newFileName = newFileName.replaceAll(&quot;.*/&quot;, &quot;&quot;);&#10;    newFileName = newFileName.replaceAll(&quot;([0-9]{2,}-)([0-9]{2,}-)([0-9]{4,}-)(.*)&quot;, &quot;$3$2$1$4&quot;);&#10;    logger4j.warn(context.logLineHeader + &quot; existing FileName : &quot;+newFileName);&#10;// Move files to destination folder&#10;     new File(input_row.PRESENT_FILE).renameTo(new File(context.sageInterfaceProcessing + &quot;/&quot; + newFileName));&#10;}"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="import java.io.File;&#10;import java.io.IOException;&#10;import java.nio.file.DirectoryNotEmptyException;&#10;import java.nio.file.Files;&#10;import java.nio.file.NoSuchFileException;&#10;import java.nio.file.Path;&#10;import java.nio.file.Paths;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJavaRow_2">
+      <column defaultValue="" key="false" length="0" name="CURRENT_ITERATION" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column key="false" length="255" name="PRESENT_FILE" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="255" name="DELETED_FILE" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="255" name="CREATED_FILE" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="255" name="UPDATED_FILE" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="255" name="FILENAME" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="255" name="NOT_UPDATED_FILE" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tFTPPut" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="768" posY="384">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFTPPut_1"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="HOST" value="context.FTPHost"/>
+    <elementParameter field="TEXT" name="PORT" value="context.FTPPort"/>
+    <elementParameter field="TEXT" name="USERNAME" value="context.FTPUser"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:NXMDErAwgZs7adpyLhAMBKa/fNhF58MBCWyPUtvFVNckGCOlpaNyaP279Ts06A=="/>
+    <elementParameter field="CHECK" name="SFTP" value="true"/>
+    <elementParameter field="CHECK" name="FTPS" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_METHOD" value="PASSWORD"/>
+    <elementParameter field="FILE" name="PRIVATEKEY" show="false" value="&quot;/.ssh/id_dsa&quot;"/>
+    <elementParameter field="PASSWORD" name="PASSPHRASE" show="false" value="enc:system.encryption.key.v1:PgmQw7AZKsGhX3Q1NikjYJVao0JXG3hYpNr27BbrgvJgICmi"/>
+    <elementParameter field="DIRECTORY" name="LOCALDIR" value="context.sageInterfaceProcessing"/>
+    <elementParameter field="TEXT" name="REMOTEDIR" value="context.sageFTPInterfaceProcessing"/>
+    <elementParameter field="CHECK" name="MOVE_TO_THE_CURRENT_DIRECTORY" show="false" value="true"/>
+    <elementParameter field="FILE" name="KEYSTORE_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="KEYSTORE_PASS" show="false" value="enc:system.encryption.key.v1:Ou6voW8fAq0OrLgwQMJOMuTv+4cikvyx++10ZICmOnKHoZKH"/>
+    <elementParameter field="CLOSED_LIST" name="MODE" show="false" value="ascii"/>
+    <elementParameter field="CLOSED_LIST" name="OVERWRITE" show="false" value="always"/>
+    <elementParameter field="CHECK" name="APPEND" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="SFTPOVERWRITE" value="overwrite"/>
+    <elementParameter field="CLOSED_LIST" name="FTPSOVERWRITE" show="false" value="always"/>
+    <elementParameter field="LABEL" name="NOTE_CUSTOMER" show="false" value="Note: File can not be renamed while using &quot;append&quot; mode in SFTP"/>
+    <elementParameter field="CHECK" name="PERL5_REGEX" value="false"/>
+    <elementParameter field="TABLE" name="FILES">
+      <elementValue elementRef="FILEMASK" value="&quot;CUST*.csv&quot;"/>
+      <elementValue elementRef="NEWNAME" value="&quot;&quot;"/>
+      <elementValue elementRef="FILEMASK" value="&quot;PROD*.csv&quot;"/>
+      <elementValue elementRef="NEWNAME" value="&quot;&quot;"/>
+      <elementValue elementRef="FILEMASK" value="&quot;PRICE*.csv&quot;"/>
+      <elementValue elementRef="NEWNAME" value="&quot;&quot;"/>
+    </elementParameter>
+    <elementParameter field="CLOSED_LIST" name="CONNECT_MODE" show="false" value="PASSIVE"/>
+    <elementParameter field="CLOSED_LIST" name="SECURITY_MODE" show="false" value="IMPLICIT"/>
+    <elementParameter field="CHECK" name="USE_ENCODING" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="USE_PROXY" value="false"/>
+    <elementParameter field="TEXT" name="PROXY_HOST" show="false" value="&quot;61.163.92.4&quot;"/>
+    <elementParameter field="TEXT" name="PROXY_PORT" show="false" value="&quot;1080&quot;"/>
+    <elementParameter field="TEXT" name="PROXY_USERNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:/05m8i9fmIPh0TvzjD6kDEBo4+jaSzCDJsdQMZ6i"/>
+    <elementParameter field="CHECK" name="IGNORE_FAILURE_AT_QUIT" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="Processing"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="TEXT" name="FTPS_PORT" value="990"/>
+    <metadata connector="FLOW" name="tFTPPut_1"/>
+  </node>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_1" offsetLabelX="0" offsetLabelY="0" source="tJava_1" target="tWaitForFile_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk1"/>
+  </connection>
+  <connection connectorName="FLOW" label="row5" lineStyle="0" metaname="tRunJob_1" offsetLabelX="0" offsetLabelY="0" source="tRunJob_1" target="tContextLoad_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="key"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="value"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row5"/>
+  </connection>
+  <connection connectorName="SUBJOB_ERROR" label="OnSubjobError" lineStyle="4" metaname="tRunJob_1" offsetLabelX="0" offsetLabelY="0" source="tRunJob_1" target="tDie_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobError1"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tRunJob_1" offsetLabelX="0" offsetLabelY="0" source="tRunJob_1" target="tInitLog4J_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
+  </connection>
+  <connection connectorName="FLOW" label="row8" lineStyle="0" metaname="tContextLoad_1" offsetLabelX="0" offsetLabelY="0" source="tContextLoad_1" target="tLogRow_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row8"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tInitLog4J_1" offsetLabelX="0" offsetLabelY="0" source="tInitLog4J_1" target="tJava_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk2"/>
+  </connection>
+  <connection connectorName="FLOW" label="copy_Files_to_prozessing" lineStyle="0" metaname="tWaitForFile_1" offsetLabelX="0" offsetLabelY="0" source="tWaitForFile_1" target="tJavaRow_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="copy_Files_to_prozessing"/>
+  </connection>
+  <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tJavaRow_2" offsetLabelX="0" offsetLabelY="0" source="tJavaRow_2" target="tFTPPut_1">
+    <elementParameter field="MEMO_JAVA" name="CONDITION" value="context.SSUK_FTP_transfer || context.SSUK_FTP_IN_only"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="If1"/>
+  </connection>
+  <note opaque="false" posX="896" posY="32" sizeHeight="65" sizeWidth="225" text="Job konfiguration lesen"/>
+  <note opaque="true" posX="896" posY="352" sizeHeight="97" sizeWidth="289" text="Customer, Produkte, Preise &#13;&#10;von der IN Box &#13;&#10;in Processing &#13;&#10;moven und auf den FTP Server kopieren."/>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDie_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tInitLog4J_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tWaitForFile_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFTPPut_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_ad887dfe-6b64-464f-a7c6-15870f8c8099"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>IGFKV3AZP0pMRqhc97/74YBcibCy6+zSjd7dxAwOqFb/k2ANgkoKrt0/fpOVgvTgf3zKVel/lpL0
+NFyc4r00Kg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_86cdf62d-358c-488f-a01e-87f27541ef44"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ZIm0SC6I478X1yBeNFbMj08aur2E7XRHBnnwSCfPvc9VmQscAPTxI57XcSNZVWXfNSeaSqkF5q6C
+rNbfn1Vipw==</DigestValue></Reference></SignedInfo><SignatureValue>PVfghdtNb15suri87UongMH91uwVcsVHDylx7adh8TI7L1VwGW9bPWtOI6q65o61v24bAi9mHLAI
+4qNNHWN46eHPxess5qfHcfbOb7m/dvQvbgFWaOr1weN5v7tVpWE1rb43iOxjZVHbT1QonMzqRxgJ
+H6yTNHFFVdCKmXfhh4ASfzsrU93CSzUQvfRxzEipRiAXpna/eR45pPsQsy8XcA8cFn+uWB2vGi5W
+q2Ef1bw1B7WsqsttQjlPYUeTHFMOenb5a/x3nu07xPCeiv2yU3r3iWDDWqXCqO7sYs1JAHAbb/zr
+RXTSV5edZF/XXT/y8rNIASROnXNLjAAHUKNbUg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_86cdf62d-358c-488f-a01e-87f27541ef44" Target="#_ad887dfe-6b64-464f-a7c6-15870f8c8099"><Timestamp>2020-08-26 09:21:49</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
